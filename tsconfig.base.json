@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-fav-org/billing": ["libs/billing/src/index.ts"],
+      "@my-fav-org/layout": ["libs/layout/src/index.ts"],
+      "@my-fav-org/reports": ["libs/reports/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

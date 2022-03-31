@@ -1,11 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import Welcome from './welcome';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="bliflo" />
+      <Welcome title="bliflo" />
       <div />
     </>
   );

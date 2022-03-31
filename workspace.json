@@ -1,7 +1,10 @@
 {
   "version": 2,
   "projects": {
+    "billing": "libs/billing",
     "bliflo": "apps/bliflo",
-    "bliflo-e2e": "apps/bliflo-e2e"
+    "bliflo-e2e": "apps/bliflo-e2e",
+    "layout": "libs/layout",
+    "reports": "libs/reports"
   }
 }
