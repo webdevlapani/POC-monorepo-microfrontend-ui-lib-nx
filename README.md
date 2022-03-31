@@ -1,5 +1,3 @@
-
-
 # MyFavOrg
 
 This project was generated using [Nx](https://nx.dev).
@@ -14,7 +12,7 @@ Nx supports many plugins which add capabilities for developing different types o
 
 These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
 
-Below are our core plugins:
+Below are our core plugins
 
 - [React](https://reactjs.org)
   - `npm install --save-dev @nrwl/react`
@@ -78,8 +76,6 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
 
 ## ☁ Nx Cloud
 
