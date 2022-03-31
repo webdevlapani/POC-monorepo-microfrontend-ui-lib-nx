@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "bliflo": "apps/bliflo",
+    "bliflo-e2e": "apps/bliflo-e2e"
+  }
+}
