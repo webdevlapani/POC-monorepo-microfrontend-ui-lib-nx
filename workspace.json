@@ -1,10 +1,12 @@
 {
   "version": 2,
   "projects": {
+    "app-layout": "libs/app-layout",
     "billing": "libs/billing",
     "bliflo": "apps/bliflo",
     "bliflo-e2e": "apps/bliflo-e2e",
-    "layout": "libs/layout",
-    "reports": "libs/reports"
+    "bliflo-routes": "libs/bliflo-routes",
+    "reports": "libs/reports",
+    "ui": "libs/ui"
   }
 }

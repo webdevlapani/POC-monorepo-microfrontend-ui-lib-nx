@@ -1,0 +1,23 @@
+{
+  "root": "libs/bliflo-routes",
+  "sourceRoot": "libs/bliflo-routes/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/bliflo-routes/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bliflo-routes"],
+      "options": {
+        "jestConfig": "libs/bliflo-routes/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

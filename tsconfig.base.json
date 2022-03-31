@@ -15,9 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@my-fav-org/app-layout": ["libs/app-layout/src/index.ts"],
       "@my-fav-org/billing": ["libs/billing/src/index.ts"],
-      "@my-fav-org/layout": ["libs/layout/src/index.ts"],
-      "@my-fav-org/reports": ["libs/reports/src/index.ts"]
+      "@my-fav-org/bliflo-routes": ["libs/bliflo-routes/src/index.ts"],
+      "@my-fav-org/reports": ["libs/reports/src/index.ts"],
+      "@my-fav-org/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

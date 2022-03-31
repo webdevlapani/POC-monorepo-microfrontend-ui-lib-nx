@@ -1,0 +1,44 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.layout {
+  height: 100vh;
+  &_sidebar {
+    background-color: #fff !important;
+    .logo {
+      margin: 16px;
+    }
+    img {
+      max-width: 150px;
+    }
+  }
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #28b56f29 !important  ;
+}
+
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  color: #28b56f !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-color: #28b56f !important;
+}
+
+.ant-menu-item a:hover {
+  color: #28b56f !important;
+}
+
+.site-layout-background {
+  background-color: #fff !important;
+}

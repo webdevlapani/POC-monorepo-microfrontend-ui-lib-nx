@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Layout from './layout';
+import BlifloRoutes from './bliflo-routes';
 
-describe('Layout', () => {
+describe('BlifloRoutes', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Layout />);
+    const { baseElement } = render(<BlifloRoutes />);
     expect(baseElement).toBeTruthy();
   });
 });

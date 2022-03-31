@@ -1,14 +1,17 @@
-import styles from './reports.module.scss';
+import { Typography } from 'antd';
+import { PageHeader } from '@my-fav-org/ui';
 
+const { Title } = Typography;
 export interface ReportsProps {
   name: string;
 }
 
-export function Reports(props: ReportsProps) {
+export function Reports({ name }: ReportsProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Reports From {props.name} !</h1>
-    </div>
+    <>
+      <PageHeader title="Reports" />
+      <Title level={2}> Hello {name}s Reports</Title>
+    </>
   );
 }
 

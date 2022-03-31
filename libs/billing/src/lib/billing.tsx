@@ -1,15 +1,18 @@
-import styles from './billing.module.scss';
+import { Typography } from 'antd';
+import { PageHeader } from '@my-fav-org/ui';
 
-/* eslint-disable-next-line */
+const { Title } = Typography;
+
 export interface BillingProps {
   name: string;
 }
 
-export function Billing(props: BillingProps) {
+export function Billing({ name }: BillingProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Billing! {props.name}</h1>
-    </div>
+    <>
+      <PageHeader title="Billing" />
+      <Title level={2}> Hello {name}'s Billing</Title>
+    </>
   );
 }
 
